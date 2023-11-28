@@ -12,7 +12,7 @@ function App() {
       <Route path="/" exact>
         <LoginPage />
       </Route>
-      <Route path="friends">
+      <Route path="/friends">
         <FriendsList />
       </Route>
     </div>

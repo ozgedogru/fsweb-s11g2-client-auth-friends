@@ -1,0 +1,11 @@
+.friends h1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.friends li {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
