@@ -22,3 +22,8 @@ button {
   font-size: 4rem;
   font-weight: 900;
 }
+
+button {
+  cursor: pointer;
+  width: 32rem;
+}
