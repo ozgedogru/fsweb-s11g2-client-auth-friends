@@ -5,7 +5,7 @@ import { AxiosInstance } from "./api/api";
 const FriendsList = () => {
   const [list, setList] = useState([]);
 
-  const getFriends = () =>
+  const getFriends = () => {
     AxiosInstance.get("/api/friends")
       .then((res) => {
         console.log(res.data);
@@ -14,6 +14,7 @@ const FriendsList = () => {
       .catch((err) => {
         console.log(err);
       });
+  };
 
   useEffect(() => {
     getFriends();
