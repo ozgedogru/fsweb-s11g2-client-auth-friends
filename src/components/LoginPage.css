@@ -1,0 +1,24 @@
+.login {
+  width: 30rem;
+  margin: auto;
+}
+
+label,
+button {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+input,
+button {
+  background-color: black;
+  color: white;
+  margin: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.login h1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
